@@ -61,8 +61,6 @@
 &kp LCTRL       &kp Z  &kp X  &kp C     &kp V         &kp B        &kp ESC                    &mmv MOVE_DOWN                   &kp N            &kp M        &kp COMMA  &kp DOT  &kp FSLH  &mt RIGHT_SHIFT NUHS
                               &kp LGUI  &kp LEFT_ALT  &lt 3 ENTER                                                              &lt 3 BACKSPACE  &lt 2 SPACE  &mo 1
             >;
-
-            sensor-bindings = <&scroll_encoder>;
         };
 
         lower_layer {
