@@ -18,7 +18,7 @@ layers:
   - {t: '$$mdi:menu-left$$', s: '$$mdi:mouse$$'}
   - S
   - {t: '$$mdi:menu-right$$', s: '$$mdi:mouse$$'}
-  - F
+  - '&new_macro'
   - G
   - $$mdi:arrow-left-bold$$
   - {t: '$$mdi:keyboard-return$$', type: enter}
