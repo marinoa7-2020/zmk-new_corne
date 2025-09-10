@@ -60,7 +60,8 @@
             key-positions = <1 15 29>;
         };
     };
-  macros {
+
+    macros {
         upleft: joy {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
@@ -89,15 +90,16 @@
             label = "DOWNRIGHT";
         };
     };
+
     keymap {
         compatible = "zmk,keymap";
 
         default_layer {
             display-name = "QWERTY";
             bindings = <
-&kp TAB    &kp Q           &mmv MOVE_UP    &kp E            &kp R  &kp T                               &kp UP                &kp Y        &kp U  &kp I      &kp O    &kp P     &kp BSPC
+&kp TAB    &upleft         &mmv MOVE_UP    &upright         &kp R  &kp T                               &kp UP                &kp Y        &kp U  &kp I      &kp O    &kp P     &kp BSPC
 &td0       &mmv MOVE_LEFT  &kp S           &mmv MOVE_RIGHT  &kp F  &kp G                     &kp LEFT  &kp ENTER  &kp RIGHT  &kp H        &kp J  &kp K      &kp L    &kp SEMI  &kp SQT
-&kp LCTRL  &kp Z           &mmv MOVE_DOWN  &kp C            &kp V  &kp B        &kp SPACE              &kp DOWN              &kp N        &kp M  &kp COMMA  &kp DOT  &kp FSLH  &kp ESC
+&kp LCTRL  &downleft       &mmv MOVE_DOWN  &downright       &kp V  &kp B        &kp SPACE              &kp DOWN              &kp N        &kp M  &kp COMMA  &kp DOT  &kp FSLH  &kp ESC
                                            &kp LGUI         &mo 1  &lt 3 SPACE                                               &lt 3 ENTER  &mo 2  &kp RALT
             >;
 
