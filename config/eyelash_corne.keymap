@@ -65,29 +65,41 @@
         upleft: joy {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&mmv MOVE_UP &mmv MOVE_LEFT>;
+            bindings = <&mmv MOVE_UP &mmv MOVE_LEFT>, <&macro_press>;
+
             label = "JOY";
         };
 
         upright: upright {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&mmv MOVE_UP &mmv MOVE_RIGHT>;
+            bindings = <&mmv MOVE_UP &mmv MOVE_RIGHT>, <&macro_press>;
+
             label = "UPRIGHT";
         };
 
         downleft: downleft {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&mmv MOVE_DOWN &mmv MOVE_LEFT>;
+            bindings = <&mmv MOVE_DOWN &mmv MOVE_LEFT>, <&macro_press>;
+
             label = "DOWNLEFT";
         };
 
         downright: downright {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&mmv MOVE_DOWN &mmv MOVE_RIGHT>;
+            bindings = <&mmv MOVE_DOWN &mmv MOVE_RIGHT>, <&macro_press>;
+
             label = "DOWNRIGHT";
+        };
+
+        new_macro: new_macro {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp A>, <&macro_press>, <&kp B &kp C>;
+
+            label = "NEW_MACRO";
         };
     };
 
