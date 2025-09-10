@@ -3,7 +3,7 @@ layers:
   QWERTY:
   - $$mdi:keyboard-tab$$
   - Q
-  - W
+  - {t: '$$mdi:menu-up$$', s: '$$mdi:mouse$$'}
   - E
   - R
   - T
@@ -15,9 +15,9 @@ layers:
   - P
   - {t: '$$mdi:backspace$$', type: backspace}
   - '&td0'
-  - A
+  - {t: '$$mdi:menu-left$$', s: '$$mdi:mouse$$'}
   - S
-  - D
+  - {t: '$$mdi:menu-right$$', s: '$$mdi:mouse$$'}
   - F
   - G
   - $$mdi:arrow-left-bold$$
@@ -31,7 +31,7 @@ layers:
   - {t: '''', s: '"'}
   - $$mdi:apple-keyboard-control$$
   - Z
-  - X
+  - {t: '$$mdi:menu-down$$', s: '$$mdi:mouse$$'}
   - C
   - V
   - B
