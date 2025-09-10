@@ -60,7 +60,35 @@
             key-positions = <1 15 29>;
         };
     };
+  macros {
+        upleft: joy {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&mmv MOVE_UP &mmv MOVE_LEFT>;
+            label = "JOY";
+        };
 
+        upright: upright {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&mmv MOVE_UP &mmv MOVE_RIGHT>;
+            label = "UPRIGHT";
+        };
+
+        downleft: downleft {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&mmv MOVE_DOWN &mmv MOVE_LEFT>;
+            label = "DOWNLEFT";
+        };
+
+        downright: downright {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&mmv MOVE_DOWN &mmv MOVE_RIGHT>;
+            label = "DOWNRIGHT";
+        };
+    };
     keymap {
         compatible = "zmk,keymap";
 
