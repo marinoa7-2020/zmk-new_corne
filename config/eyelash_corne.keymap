@@ -65,7 +65,12 @@
         upleft: joy {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&mmv MOVE_UP &mmv MOVE_LEFT>, <&macro_press>;
+            bindings =
+                <&macro_press>,
+                <&mmv MOVE_LEFT &mmv MOVE_UP>,
+                <&macro_pause_for_release>,
+                <&macro_release>,
+                <&mmv MOVE_LEFT &mmv MOVE_UP>;
 
             label = "JOY";
         };
@@ -73,7 +78,7 @@
         upright: upright {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&mmv MOVE_UP &mmv MOVE_RIGHT>, <&macro_press>;
+            bindings = <&macro_press>, <&mmv MOVE_RIGHT &mmv MOVE_UP>;
 
             label = "UPRIGHT";
         };
@@ -81,7 +86,7 @@
         downleft: downleft {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&mmv MOVE_DOWN &mmv MOVE_LEFT>, <&macro_press>;
+            bindings = <&macro_press>, <&mmv MOVE_DOWN &mmv MOVE_LEFT>;
 
             label = "DOWNLEFT";
         };
