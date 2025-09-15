@@ -5,7 +5,7 @@ layers:
   - '&upleft'
   - {t: '$$mdi:menu-up$$', s: '$$mdi:mouse$$'}
   - '&upright'
-  - R
+  - {t: '$$mdi:menu-up$$', s: '$$mdi:mouse$$'}
   - T
   - $$mdi:arrow-up-bold$$
   - Y
@@ -19,7 +19,7 @@ layers:
   - S
   - {t: '$$mdi:menu-right$$', s: '$$mdi:mouse$$'}
   - '&new_macro'
-  - G
+  - {t: '$$mdi:menu-right$$', s: '$$mdi:mouse$$'}
   - $$mdi:arrow-left-bold$$
   - {t: '$$mdi:keyboard-return$$', type: enter}
   - $$mdi:arrow-right-bold$$
@@ -33,7 +33,7 @@ layers:
   - '&downleft'
   - {t: '$$mdi:menu-down$$', s: '$$mdi:mouse$$'}
   - '&downright'
-  - V
+  - {t: '$$mdi:menu-left$$', s: '$$mdi:mouse$$'}
   - B
   - $$mdi:keyboard-space$$
   - $$mdi:arrow-down-bold$$
@@ -45,7 +45,7 @@ layers:
   - $$mdi:keyboard-esc$$
   - LGUI
   - NUMBER
-  - {t: '$$mdi:keyboard-space$$', h: Fn}
+  - {t: '$$mdi:menu-down$$', s: '$$mdi:mouse$$'}
   - {t: '$$mdi:keyboard-return$$', h: Fn}
   - SYMBOL
   - $$mdi:apple-keyboard-option$$
@@ -192,8 +192,8 @@ layers:
   - PAUSE BREAK
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
   - {type: held}
-  - {type: held alternate}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
 combos:
