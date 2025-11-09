@@ -7,7 +7,7 @@ layers:
   - E
   - R
   - T
-  - $$mdi:pan-up$$
+  - {t: '$$mdi:menu-up$$', s: '$$mdi:mouse$$'}
   - Y
   - U
   - I
@@ -20,9 +20,9 @@ layers:
   - D
   - F
   - G
-  - $$mdi:pan-left$$
+  - {t: '$$mdi:menu-left$$', s: '$$mdi:mouse$$'}
   - $$mdi:mouse-left-click-outline$$
-  - $$mdi:pan-right$$
+  - {t: '$$mdi:menu-right$$', s: '$$mdi:mouse$$'}
   - H
   - J
   - K
@@ -36,7 +36,7 @@ layers:
   - V
   - B
   - $$mdi:mouse-right-click-outline$$
-  - $$mdi:pan-down$$
+  - {t: '$$mdi:menu-left$$', s: '$$mdi:mouse$$'}
   - N
   - M
   - {t: ',', s: <}
@@ -46,57 +46,57 @@ layers:
   - LGUI
   - {t: '$$mdi:keyboard-space$$', h: SYMBOL}
   - {t: '$$mdi:keyboard-return$$', h: Fn}
-  - {t: '$$mdi:backspace$$', type: backspace}
+  - {t: '$$mdi:backspace$$', h: Fn}
   - {t: '-', h: SYMBOL, s: _}
   - {t: '$$mdi:keyboard-tab$$', h: NUMBER}
   NUMBER:
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '1', s: '!'}
-  - {t: '2', s: '@'}
-  - {t: '3', s: '#'}
-  - {t: '4', s: $}
-  - {t: '5', s: '%'}
+  - RGB TOG
+  - RGB HUI
+  - RGB SAI
+  - RGB BRI
+  - RGB SPI
   - {t: '$$mdi:menu-up$$', s: '$$mdi:mouse$$'}
-  - {t: '6', s: ^}
-  - {t: '7', s: '&'}
-  - {t: '8', s: '*'}
-  - {t: '9', s: (}
-  - {t: '0', s: )}
-  - {t: '$$mdi:backspace$$', type: backspace}
-  - $$mdi:bluetooth-off$$
-  - BT CLR ALL
-  - {h: '1', s: '$$mdi:bluetooth-connect$$'}
-  - {h: '2', s: '$$mdi:bluetooth-connect$$'}
-  - {h: '3', s: '$$mdi:bluetooth-connect$$'}
-  - {h: '4', s: '$$mdi:bluetooth-connect$$'}
-  - {t: '$$mdi:menu-left$$', s: '$$mdi:mouse$$'}
-  - $$mdi:mouse-left-click-outline$$
-  - {t: '$$mdi:menu-right$$', s: '$$mdi:mouse$$'}
-  - $$mdi:arrow-left-bold$$
-  - $$mdi:arrow-down-bold$$
-  - $$mdi:arrow-up-bold$$
-  - $$mdi:arrow-right-bold$$
-  - HOME
-  - PG UP
   - {t: '$$mdi:transfer$$', type: trans}
-  - RGB OFF
-  - RGB ON
+  - PgUp
+  - $$mdi:arrow-up-bold$$
+  - PgDn
+  - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - RGB EFF
-  - $$mdi:volume-off$$
-  - {t: '$$mdi:menu-down$$', s: '$$mdi:mouse$$'}
-  - RGB EFR
-  - RGB SPI
-  - RGB BRI
+  - RGB HUD
+  - RGB SAD
   - RGB BRD
+  - RGB SPD
+  - {t: '$$mdi:menu-left$$', s: '$$mdi:mouse$$'}
+  - $$mdi:mouse-left-click-outline$$
+  - {t: '$$mdi:menu-right$$', s: '$$mdi:mouse$$'}
+  - HOME
+  - {t: '$$mdi:arrow-left-bold$$', h: toggle}
+  - $$mdi:arrow-down-bold$$
+  - $$mdi:arrow-right-bold$$
   - END
-  - PG DN
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - RGB EFR
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - INS
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:menu-down$$', s: '$$mdi:mouse$$'}
+  - '&mkp MB4'
+  - '&mkp MB1'
+  - '&mkp MB2'
+  - '&mkp MB5'
+  - '&mkp MB3'
   - $$mdi:backspace-reverse-outline$$
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
   - {type: held}
   SYMBOL:
   - {t: '$$mdi:transfer$$', type: trans}
@@ -193,7 +193,7 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {type: held}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - {type: held alternate}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
 combos:
