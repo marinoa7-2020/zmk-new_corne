@@ -81,7 +81,7 @@
             bindings = <
 &trans  &rgb_ug RGB_TOG  &rgb_ug RGB_HUI  &rgb_ug RGB_SAI  &rgb_ug RGB_BRI  &rgb_ug RGB_SPI                      &kp UP                &kp END    &mkp MB4        &msc SCRL_UP    &mkp MB5         &kp LBKT         &kp INTERNATIONAL_3
 &trans  &rgb_ug RGB_EFF  &rgb_ug RGB_HUD  &rgb_ug RGB_SAD  &rgb_ug RGB_BRD  &rgb_ug RGB_SPD            &kp LEFT  &kp ENTER  &kp RIGHT  &kp HOME   &mmv MOVE_LEFT  &mmv MOVE_UP    &mmv MOVE_DOWN   &mmv MOVE_RIGHT  &kp END
-&trans  &rgb_ug RGB_EFR  &trans           &trans           &trans           &trans           &trans              &kp DOWN              &trans     &msc SCRL_LEFT  &msc SCRL_DOWN  &msc SCRL_RIGHT  &trans           &kp DEL
+&trans  &rgb_ug RGB_EFR  &trans           &trans           &trans           &trans           &trans              &kp DOWN              &trans     &msc SCRL_LEFT  &msc SCRL_DOWN  &msc SCRL_RIGHT  &trans           &trans
                                           &trans           &trans           &trans                                                     &mkp LCLK  &mkp RCLK       &mkp MB3
             >;
 
