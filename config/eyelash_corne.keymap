@@ -103,10 +103,10 @@
         layer_3 {
             display-name = "Fn";
             bindings = <
-&trans  &bt BT_CLR_ALL  &bt BT_CLR    &trans        &trans        &trans                                     &mmv MOVE_UP                     &kp GRAVE  &kp CAPSLOCK  &trans       &trans      &kp ESC         &trans
-&trans  &bt BT_PRV      &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4               &mmv MOVE_LEFT  &mkp LCLK       &mmv MOVE_RIGHT  &trans     &trans        &trans       &trans      &kp DELETE      &trans
-&trans  &bt BT_CLR      &bt BT_NXT    &out OUT_BLE  &out OUT_USB  &out OUT_TOG  &mkp RCLK                    &mmv MOVE_DOWN                   &trans     &trans        &bootloader  &sys_reset  &studio_unlock  &trans
-                                      &trans        &trans        &trans                                                                      &trans     &trans        &trans
+&trans  &bt BT_CLR_ALL  &bt BT_CLR    &out OUT_BLE  &out OUT_USB  &out OUT_TOG                               &mmv MOVE_UP                     &kp ESCAPE  &kp LANG1  &kp LANGUAGE_2  &trans      &kp DEL         &trans
+&trans  &bt BT_SEL 0    &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4               &mmv MOVE_LEFT  &mkp LCLK       &mmv MOVE_RIGHT  &trans      &trans     &trans          &trans      &trans          &trans
+&trans  &kp LEFT_SHIFT  &trans        &trans        &trans        &trans        &mkp RCLK                    &mmv MOVE_DOWN                   &trans      &trans     &bootloader     &sys_reset  &studio_unlock  &trans
+                                      &trans        &trans        &trans                                                                      &trans      &trans     &trans
             >;
 
             sensor-bindings = <&scroll_encoder>;
